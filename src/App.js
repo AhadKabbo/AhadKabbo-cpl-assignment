@@ -1,6 +1,7 @@
 import "./App.css";
 import {
-  Navbar,
+  NavigationBar,
+  MainNavigationBar,
   HeroSection,
   DhakaResort,
   PopularPackage,
@@ -12,9 +13,12 @@ import {
 const App = () => {
   return (
     <div className="App">
-      <Navbar />
-      <HeroSection />
+      <div style={{ background: "#007bff" }}>
+        <NavigationBar />
+        <MainNavigationBar />
+      </div>
 
+      <HeroSection />
       <DhakaResort />
       <PopularPackage />
       <Review />
