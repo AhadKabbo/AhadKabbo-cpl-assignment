@@ -12,8 +12,10 @@ import {
 const App = () => {
   return (
     <div className="App">
-      <Navbar />
-      <HeroSection />
+      <div className="nav-bg">
+        <Navbar />
+        <HeroSection />
+      </div>
 
       <DhakaResort />
       <PopularPackage />
