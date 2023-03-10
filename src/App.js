@@ -3,6 +3,7 @@ import {
   NavigationBar,
   MainNavigationBar,
   HeroSection,
+  BookNow,
   DhakaResort,
   PopularPackage,
   Review,
@@ -19,6 +20,7 @@ const App = () => {
       </div>
 
       <HeroSection />
+      <BookNow />
       <DhakaResort />
       <PopularPackage />
       <Review />
