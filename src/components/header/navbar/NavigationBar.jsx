@@ -11,30 +11,28 @@ import {
 const NavigationBar = () => {
   return (
     <Navbar
-      className="backgroundColor px-5 "
+      className="backgroundColor px-5"
       style={{ maxHeight: "40px" }}
       expand="lg ">
       <Container fluid>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav className="me-auto my-2 my-lg-0" navbarScroll>
-            <Nav.Link className="textColor me-3" href="#">
+            <Nav.Link className=" me-3" href="#">
               <FaPhone /> 123-456-7890
             </Nav.Link>
-            <Nav.Link
-              className="textColor me-3"
-              href="mailto:info@mywebsite.com">
+            <Nav.Link className="me-3" href="mailto:info@mywebsite.com">
               <FaEnvelope /> info@mywebsite.com
             </Nav.Link>
           </Nav>
           <Nav className="d-flex align-items-center ">
-            <Nav.Link className="textColor me-3" href="website.com">
+            <Nav.Link className=" me-3" href="website.com">
               <FaFacebook />
             </Nav.Link>
-            <Nav.Link className="textColor me-3" href="website.com">
+            <Nav.Link className=" me-3" href="website.com">
               <FaTwitter />
             </Nav.Link>
-            <Nav.Link className="textColor me-3" href="website.com">
+            <Nav.Link className=" me-3" href="website.com">
               <FaInstagram />
             </Nav.Link>
             <Button

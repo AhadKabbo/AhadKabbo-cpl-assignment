@@ -5,7 +5,7 @@ const MainNavigationBar = () => {
   return (
     <Navbar className="px-5" expand="lg ">
       <Container fluid>
-        <Navbar.Brand className="textColor fs-2 fw-bold" href="#">
+        <Navbar.Brand className="fs-2 fw-bold" href="#">
           Dhaka Resort
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />

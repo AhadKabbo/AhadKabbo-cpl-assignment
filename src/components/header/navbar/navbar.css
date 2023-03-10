@@ -1,7 +1,11 @@
-.textColor {
+.backgroundColor {
+  background-color: #0040ca;
+}
+
+.navbar .nav-link {
   color: white;
 }
 
-.backgroundColor {
-  background-color: #0040ca;
+.navbar .navbar-brand {
+  color: white;
 }

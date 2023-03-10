@@ -13,7 +13,7 @@ import {
 const App = () => {
   return (
     <div className="App">
-      <div style={{ background: "#007bff" }}>
+      <div className="navBg">
         <NavigationBar />
         <MainNavigationBar />
       </div>
