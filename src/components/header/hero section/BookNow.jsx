@@ -6,7 +6,7 @@ import {
   Container,
 } from "react-bootstrap";
 
-const BookingForm = () => {
+const BookNow = () => {
   return (
     <>
       <Container
@@ -58,4 +58,4 @@ const BookingForm = () => {
   );
 };
 
-export default BookingForm;
+export default BookNow;

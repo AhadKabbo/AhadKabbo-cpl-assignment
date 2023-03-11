@@ -3,7 +3,9 @@ export { default as MainNavigationBar } from "./header/navbar/MainNavigationBar.
 export { default as HeroSection } from "./header/hero section/HeroSection.jsx";
 export { default as BookNow } from "./header/hero section/BookNow.jsx";
 export { default as DhakaResort } from "./main/DhakaResort.jsx";
+export { default as DhakaResortCopy } from "./main/DhakaResort copy.jsx";
 export { default as PopularPackage } from "./main/PopularPackage.jsx";
+export { default as Test } from "./main/Test.jsx";
 export { default as Review } from "./main/Review.jsx";
 export { default as Offer } from "./main/Offer.jsx";
 export { default as Footer } from "./footer/Footer.jsx";

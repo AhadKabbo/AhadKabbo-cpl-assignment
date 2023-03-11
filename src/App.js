@@ -5,6 +5,7 @@ import {
   HeroSection,
   BookNow,
   DhakaResort,
+  // DhakaResortCopy,
   PopularPackage,
   Review,
   Offer,
@@ -18,14 +19,14 @@ const App = () => {
         <NavigationBar />
         <MainNavigationBar />
       </div>
-
       <HeroSection />
       <BookNow />
       <DhakaResort />
+      {/* <DhakaResortCopy /> */}
+      {/* <Test /> */}
       <PopularPackage />
       <Review />
       <Offer />
-
       <Footer />
     </div>
   );
