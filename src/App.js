@@ -9,6 +9,7 @@ import {
   PopularPackage,
   Review,
   Offer,
+  Test,
   Footer,
 } from "./components";
 
@@ -23,7 +24,7 @@ const App = () => {
       <BookNow />
       <DhakaResort />
       {/* <DhakaResortCopy /> */}
-      {/* <Test /> */}
+      <Test />
       <PopularPackage />
       <Review />
       <Offer />
