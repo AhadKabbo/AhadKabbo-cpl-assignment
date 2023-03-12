@@ -10,4 +10,4 @@ export { default as ReviewsCarousel } from "./main/review section/ReviewsCarouse
 // export { default as review } from "./main/review section/reviews.js";
 export { default as ReviewCard } from "./main/review section/ReviewCard.jsx";
 export { default as Offer } from "./main/Offer.jsx";
-export { default as Footer } from "./footer/Footer.jsx";
+export { default as WebFooter } from "./footer/Footer.jsx";

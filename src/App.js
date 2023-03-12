@@ -10,7 +10,7 @@ import {
   ReviewsCarousel,
   Offer,
   Test,
-  Footer,
+  WebFooter,
   ReviewCard,
 } from "./components";
 import { reviews } from "./components/main/review section/reviews";
@@ -34,7 +34,7 @@ const App = () => {
       {/* <Review /> */}
 
       <Offer />
-      <Footer />
+      <WebFooter />
     </div>
   );
 };
