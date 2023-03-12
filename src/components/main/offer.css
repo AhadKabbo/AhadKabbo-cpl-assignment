@@ -1,10 +1,10 @@
-.package-bg-image {
+.offer-bg-image {
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: 70vh;
 }
 
-.package-bg-image::before {
+.offer-bg-image::before {
   content: "";
   background-image: url("../../assets/dhakaResort.jpg");
   background-size: cover;
@@ -15,7 +15,7 @@
   right: 0;
   bottom: 0;
 }
-.package-bg-image::after {
+.offer-bg-image::after {
   content: "";
   position: absolute;
   top: 0;
@@ -25,7 +25,7 @@
   background: linear-gradient(to bottom, #fffffff3, #dcd4d4ab);
 }
 
-.package-content {
+.offer-content {
   position: relative;
   z-index: 1;
 }
@@ -39,17 +39,16 @@
   padding: 0px;
 }
 
-.view-all-package {
+.view-all-offer {
   border-color: #007bff;
   border-radius: 50px;
   transition: all 0.5s ease-in-out;
-
   font-size: 18px;
-  font-weight: bolder;
+  font-weight: bold;
   background-color: #007bff;
   color: white;
 }
-.view-all-package:hover {
+.view-all-offer:hover {
   background-color: white;
   color: #007bff;
 }
