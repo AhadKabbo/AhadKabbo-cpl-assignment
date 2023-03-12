@@ -6,14 +6,13 @@ import {
   FaFacebook,
   FaTwitter,
   FaInstagram,
+  FaSignInAlt,
+  FaUserPlus,
 } from "react-icons/fa";
 
 const NavigationBar = () => {
   return (
-    <Navbar
-      className="backgroundColor px-5"
-      style={{ maxHeight: "40px" }}
-      expand="lg ">
+    <Navbar className="backgroundColor px-5" expand="lg ">
       <Container fluid>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
@@ -37,26 +36,30 @@ const NavigationBar = () => {
             </Nav.Link>
             <Button
               style={{
-                height: "34px",
-                fontSize: "15px",
+                height: "30px",
+                fontSize: "14px",
                 fontWeight: "bold",
                 padding: "4px 8px",
                 background: "white",
                 color: "black",
+                borderColor: "transparent",
               }}
               className="me-3 rounded-3 ">
+              <FaSignInAlt className="me-2" />
               LogIn
             </Button>
             <Button
               style={{
-                height: "34px",
-                fontSize: "15px",
+                height: "30px",
+                fontSize: "14px",
                 fontWeight: "bold",
                 padding: "4px 8px",
-                background: "#007bff",
+                background: "#2A3289",
                 color: "white",
+                borderColor: "transparent",
               }}
               className="me-3 rounded-3 ">
+              <FaUserPlus className="me-2" />
               SignUp
             </Button>
           </Nav>

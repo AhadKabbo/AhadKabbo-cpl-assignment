@@ -5,16 +5,14 @@ import {
   HeroSection,
   BookNow,
   DhakaResort,
-  // DhakaResortCopy,
   PopularPackage,
   ReviewsCarousel,
   Offer,
   Test,
   WebFooter,
-  ReviewCard,
 } from "./components";
-import { reviews } from "./components/main/review section/reviews";
 
+import { reviews } from "./components/main/review section/reviews";
 const App = () => {
   return (
     <div className="App">
@@ -25,14 +23,9 @@ const App = () => {
       <HeroSection />
       <BookNow />
       <DhakaResort />
-      {/* <DhakaResortCopy /> */}
       <Test />
       <PopularPackage />
-
       <ReviewsCarousel reviews={reviews} />
-      {/* <ReviewCard review={reviews} /> */}
-      {/* <Review /> */}
-
       <Offer />
       <WebFooter />
     </div>
