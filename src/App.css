@@ -88,3 +88,11 @@ ul {
   background-color: white;
   color: #007bff;
 }
+
+.test {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 72, 255, 0.9) 0%,
+    rgba(121, 0, 0, 0.959) 100%
+  );
+}

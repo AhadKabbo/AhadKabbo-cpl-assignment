@@ -7,11 +7,13 @@ import {
   DhakaResort,
   // DhakaResortCopy,
   PopularPackage,
-  Review,
+  ReviewsCarousel,
   Offer,
   Test,
   Footer,
+  ReviewCard,
 } from "./components";
+import { reviews } from "./components/main/review section/reviews";
 
 const App = () => {
   return (
@@ -26,7 +28,11 @@ const App = () => {
       {/* <DhakaResortCopy /> */}
       <Test />
       <PopularPackage />
-      <Review />
+
+      <ReviewsCarousel reviews={reviews} />
+      {/* <ReviewCard review={reviews} /> */}
+      {/* <Review /> */}
+
       <Offer />
       <Footer />
     </div>
