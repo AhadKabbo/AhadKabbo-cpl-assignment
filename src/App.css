@@ -16,68 +16,17 @@ a {
 }
 
 .navBg {
-  background-color: #007bff;
+  background-color: #2a3289;
 }
 
-.section__padding {
-  padding: 4rem 6rem;
+.textColor {
+  color: #2a3289;
 }
 
-.section__margin {
-  margin: 4rem 6rem;
-}
-
-.photo-grid-box1 {
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.photo-grid-box1 img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 10px;
-  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.3);
-}
-.photo-grid-box2 {
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.photo-grid-box2 img {
-  width: 80%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 10px;
-  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.3);
-}
-
-ul {
-  list-style-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23000' stroke='%23000' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='9 18 15 12 9 6'%3E%3C/polyline%3E%3C/svg%3E");
-}
-
-.discover-now {
-  border-color: #007bff;
-  border-radius: 50px;
-  transition: all 0.5s ease-in-out;
-
-  font-size: 18px;
-  font-weight: bolder;
-  background-color: #007bff;
-  color: white;
-}
-.discover-now:hover {
-  background-color: white;
-  color: #007bff;
-}
 .test {
   background-image: linear-gradient(
     to bottom,
-    rgba(0, 72, 255, 0.9) 0%,
-    rgba(121, 0, 0, 0.959) 100%
+    rgba(255, 255, 255, 0.9) 0%,
+    #5f639177 100%
   );
 }

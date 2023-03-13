@@ -1,5 +1,13 @@
 import React from "react";
-import { Container, Row, Col, Image, Form, Button } from "react-bootstrap";
+import {
+  Container,
+  Row,
+  Col,
+  Image,
+  Form,
+  Button,
+  InputGroup,
+} from "react-bootstrap";
 import { FaMapMarkerAlt, FaInbox, FaPhone } from "react-icons/fa";
 import "../";
 
@@ -54,19 +62,32 @@ const WebFooter = () => {
                 Subscribe for our latest & Articles. We Won't Give You Spam
                 Mails
               </p>
-              <Form className="d-flex">
+              <Form className="d-flex position-relative">
                 <Form.Control
                   type="email"
                   placeholder="Email Address"
                   className="me-2"
                 />
-                <Button className="discover-now"> SUBSCRIBE</Button>
+                <Button
+                  style={{
+                    backgroundColor: "#3a4190",
+                    color: "#ffffff",
+                    position: "absolute",
+                    right: 0,
+                    top: 0,
+                    height: "100%",
+                    borderRadius: "0 4px 4px 0",
+                    paddingLeft: "10px",
+                    paddingRight: "10px",
+                  }}>
+                  SUBSCRIBE
+                </Button>
               </Form>
             </Col>
           </Row>
           <hr className=" text-white" />
           <p className="text-center mb-0">
-            Copyright 2022 Dhaka Resort. All Rights Reserved.
+            Copyright 2022 Dhaka Resort. All rights reserved.
           </p>
         </Container>
       </footer>

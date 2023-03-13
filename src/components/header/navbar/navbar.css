@@ -10,3 +10,7 @@
 .navbar .navbar-brand {
   color: white;
 }
+
+.navbar .nav-link.active {
+  color: black;
+}

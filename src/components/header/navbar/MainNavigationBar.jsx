@@ -34,7 +34,7 @@ const MainNavigationBar = () => {
             <Nav.Link className="textColor px-4 fs-6" href="#">
               EVENT
             </Nav.Link>
-            <Nav.Link className="textColor px-4 fs-6" href="#">
+            <Nav.Link className="textColor ps-4 fs-6" href="#">
               CONTACT
             </Nav.Link>
           </Nav>

@@ -1,5 +1,5 @@
 import { Container, Row, Col, Card } from "react-bootstrap";
-import { p2, p3 } from "../../assets/index";
+import { p2, p3 } from "../../../assets/index";
 import "./popularPackage.css";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
@@ -11,15 +11,11 @@ const PopularPackage = () => {
           <Container>
             <Row className="pt-5">
               <Col>
-                <h1
-                  className="fs-2 fw-bolder pb-4"
-                  style={{ color: "#007bff" }}>
+                <h1 className="textColor fs-2 fw-bolder pb-4 ">
                   FIND OUR POPULAR PACKAGE
                 </h1>
               </Col>
-              <Col
-                className="d-flex justify-content-end"
-                style={{ color: "#007bff" }}>
+              <Col className="d-flex justify-content-end textColor">
                 <FaArrowLeft className="me-3" />
                 <FaArrowRight />
               </Col>
@@ -28,7 +24,7 @@ const PopularPackage = () => {
             <Row>
               <Col md={4}>
                 <Card className="package-card">
-                  <Card.Img variant="top" src={p2} fluid />
+                  <Card.Img variant="top" src={p3} fluid />
                   <Card.Body>
                     <Card.Title className="text-center">PACKAGE 1</Card.Title>
                   </Card.Body>
@@ -44,7 +40,7 @@ const PopularPackage = () => {
               </Col>
               <Col md={4}>
                 <Card className="package-card">
-                  <Card.Img variant="top" src={p2} fluid />
+                  <Card.Img variant="top" src={p3} fluid />
                   <Card.Body>
                     <Card.Title className="text-center">PACKAGE 1</Card.Title>
                   </Card.Body>

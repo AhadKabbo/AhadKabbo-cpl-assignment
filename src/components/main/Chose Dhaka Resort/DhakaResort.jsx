@@ -1,15 +1,18 @@
 import { Row, Col, Container, Figure } from "react-bootstrap";
-import { p2, p3 } from "../../assets/index";
+import { p2, p3 } from "../../../assets/index";
+import "./dhakaResort.css";
 
 const DhakaResort = () => {
   return (
     <>
       <Container className="d-flex flex-column justify-content-center align-items-center p-5">
-        <h1 className="fs-2 fw-bolder pb-4" style={{ color: "#007bff" }}>
+        <h1 className="textColor fs-2 fw-bolder pb-4">
           Why Chose Dhaka Resort
         </h1>
 
-        <div className="mx-5 text-center mb-5 " style={{ maxWidth: "800px" }}>
+        <div
+          className="mx-5 text-center mb-5 text-muted"
+          style={{ maxWidth: "800px" }}>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate,
           molestias, unde velit corporis possimus, ut beatae impedit
           necessitatibus odit at excepturi praesentium nesciunt .
@@ -74,8 +77,8 @@ const DhakaResort = () => {
               </Col>
             </Row>
           </Col>
-          <Col md={6} className=" px-5">
-            <div className="mx-3 mb-4" style={{ maxWidth: "500px" }}>
+          <Col md={6} className=" px-5 text-muted">
+            <div className="mx-3 mb-4 " style={{ maxWidth: "500px" }}>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Cupiditate, molestias, unde velit corporis maiores. Veritatis,
               facere eos fugiat incidunt doloremque in quia! Lorem ipsum dolor

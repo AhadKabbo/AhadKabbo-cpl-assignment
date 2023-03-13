@@ -6,7 +6,7 @@
 
 .package-bg-image::before {
   content: "";
-  background-image: url("../../assets/dhakaResort.jpg");
+  background-image: url("../../../assets/dhakaResort.jpg");
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -40,16 +40,17 @@
 }
 
 .view-all-package {
-  border-color: #007bff;
+  border-color: #2a3289;
   border-radius: 50px;
   transition: all 0.5s ease-in-out;
 
   font-size: 18px;
-  font-weight: bolder;
-  background-color: #007bff;
+  font-weight: bold;
+  background-color: #2a3289;
   color: white;
 }
 .view-all-package:hover {
   background-color: white;
-  color: #007bff;
+  color: #2a3289;
+  border-color: #2a3289;
 }
